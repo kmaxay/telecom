@@ -1,17 +1,39 @@
-# 📊 Telecom Churn Prediction
 
-This project predicts telecom customer churn using machine learning. It includes data preprocessing, model training, and deployment with a saved model file.
+---
 
-## 🗂️ Files in this repo
+## ✅ Finalized `README.md` for `telecom`
 
-- `churn.py` – Main script (includes model loading and prediction logic)
-- `xgb_model.pkl` – Trained XGBoost model
-- `Churn (1).xlsx` – Raw dataset (Excel)
-- `P_451_Telecommunication_Churn_Group_6...xlsx` – Cleaned/processed dataset
+```md
+# 📊 Telecom Customer Churn Prediction
 
-## 🚀 How to run
+This project predicts telecom customer churn using machine learning techniques. It includes data preprocessing, model training, and deployment using Streamlit for live predictions.
 
-Install the required packages:
+---
+
+## 🧪 Features
+
+- End-to-end ML pipeline: EDA → Preprocessing → Model Training → Evaluation
+- Handles imbalanced data using **SMOTE**
+- Uses **XGBoost**, **Random Forest**, and other models
+- Interactive web UI with **Streamlit**
+- Performance evaluation with metrics and visualizations
+
+---
+
+## 🗂️ Files
+
+| File | Description |
+|------|-------------|
+| `churn.py` | Main app script |
+| `xgb_model.pkl` | Trained XGBoost model |
+| `Churn (1).xlsx` | Raw dataset |
+| `P_451_Telecommunication_Churn_Group_6...xlsx` | Cleaned dataset |
+
+---
+
+## 📦 Installation
+
+Install dependencies:
 
 ```bash
 pip install pandas xgboost streamlit scikit-learn
